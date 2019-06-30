@@ -18,3 +18,6 @@
  - 看板使用练习
  - UML绘图工具练习
  
+ ![2-1](https://github.com/Daiyf8/swsad-hw/blob/master/Image/2-1.png)
+ 
+  - 《UML和模式应用》Page9 图1-6 UML的不同透视图
