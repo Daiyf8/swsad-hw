@@ -7,6 +7,8 @@
      - 属性要注意计算字段
 
  - ake Reservation建模：
+ 
+ ！[Image text](https://github.com/Daiyf8/swsad-hw/blob/master/Image/9-1.png)
 
 
  - 数据建模：
@@ -22,11 +24,11 @@
 
 
  - 数据建模：
-Payment(ID/key, ReservationID/Fkey, way, card number, security code, expiry date, title, name, address, phone)
+   Payment(ID/key, ReservationID/Fkey, way, card number, security code, expiry date, title, name, address, phone)
 
-ReservationItem(ID/key, RoomID/Fkey, CustomerID/Fkey, checkInDate, checkOutDate, Price, NumberOfAdults, NumberOfChildren)
+   ReservationItem(ID/key, RoomID/Fkey, CustomerID/Fkey, checkInDate, checkOutDate, Price, NumberOfAdults, NumberOfChildren)
 
-CreditCard(ID/key, PaymentID/Fkey, Type, CardSecurityCode, ExpiryDate, CardHolderID/Fkey)
+   CreditCard(ID/key, PaymentID/Fkey, Type, CardSecurityCode, ExpiryDate, CardHolderID/Fkey)
 
 
 # 用 UML State Model，对每个订单对象生命周期建模
