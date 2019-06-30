@@ -8,7 +8,7 @@
 
  - ake Reservation建模：
  
- ！[Image text](https://github.com/Daiyf8/swsad-hw/blob/master/Image/9-1.png)
+ ![Image](https://github.com/Daiyf8/swsad-hw/blob/master/Image/9-1.png)
 
 
  - 数据建模：
@@ -21,6 +21,8 @@
    ReservationItem(ID/key, RoomID/Fkey, CustomerID/Fkey, checkInDate, checkOutDate, Price, NumberOfAdults, NumberOfChildren)
 
  - 对 Payment 建模：
+ 
+ ![Image](https://github.com/Daiyf8/swsad-hw/blob/master/Image/9-2.png)
 
 
  - 数据建模：
@@ -38,3 +40,5 @@
  - 建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。
 
  - 活动图：
+ 
+ ![Image](https://github.com/Daiyf8/swsad-hw/blob/master/Image/9-3.png)
